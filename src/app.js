@@ -1,4 +1,4 @@
-import ez from 'ezdo'
+import aut from 'aut.js'
 import './base/reset.css'
 import Home from './pages/index'
 import Router from './router'
@@ -9,6 +9,6 @@ import Router from './router'
 let home = new Home()
 new Router(home)
 
-ez.render(home)
+aut.render(home)
 
 

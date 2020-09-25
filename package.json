@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "aut-router": "0.0.1",
-    "ezdo": "latest"
+    "aut.js": "0.0.1"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",

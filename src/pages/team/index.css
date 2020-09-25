@@ -3,4 +3,16 @@
     padding: 10px;
     background-color: white;
     /* bor */
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.member:hover {
+    /* 添加一个阴影 */
+    box-shadow: 0 0 5px #888888;
+}
+
+.member > .photo {
+    width: 200px;
+    height: 200px;
 }

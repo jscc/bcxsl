@@ -22,6 +22,8 @@ class Nav extends e.Node {
                 name: 'My Blog',
                 link: 'http://blog.syncwe.com'
             }
+            // 解析 blog.syncwe.com ==> blog.bcxsl.com
+            // 发布一个 npm 包: aut.js
         ]
 
         list.forEach(data => {

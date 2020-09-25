@@ -1,4 +1,4 @@
-import e from 'ezdo'
+import e from 'aut.js'
 import './index.css'
 
 import Nav from './../common/ui/nav'
@@ -27,7 +27,7 @@ class Home extends e.Node {
 
         // }
 
-        // 来这里抄 ezdojs.github.io
+        // 来这里抄 autjs.github.io
 
     }
 }

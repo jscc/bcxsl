@@ -1,4 +1,4 @@
-import e from 'ezdo'
+import e from 'aut.js'
 import './index.css'
 
 // 成员组件， 建议一个文件里不要存放太多同级 class，可以在以目录的方式来存在更合理
@@ -6,11 +6,10 @@ class Member extends e.Node {
     constructor(data) {
         super()
 
-
         
-
         // 一个成员里包含
         let photo = new e.Image()
+        photo.addClass('photo')
         photo.src = data.photo
         this.add(photo)
 
@@ -36,24 +35,20 @@ class Team extends e.Node {
     initData() {
         this.list = [
             {
-                photo: 'http://localhost:5000/171143.png',
-                name: '某某某',
-                job: '职业经理人'
+                photo: '/temp.jpg',
+                name: '虚位以待',
+                job: '？？？？？'
+            },
+            
+            {
+                photo: '/avatar.jpg',
+                name: '落尘',
+                job: '？？？？？'
             },
             {
-                photo: 'http://localhost:5000/171233.png',
-                name: '某某某',
-                job: '职业经理人'
-            },
-            {
-                photo: 'http://localhost:5000/171318.png',
-                name: '某某某',
-                job: '职业经理人'
-            },
-            {
-                photo: 'http://localhost:5000/171337.png',
-                name: '某某某',
-                job: '职业经理人'
+                photo: '/temp.jpg',
+                name: '虚位以待',
+                job: '？？？？？'
             },
         ]
     }
